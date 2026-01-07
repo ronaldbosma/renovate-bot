@@ -8,6 +8,9 @@
   "configMigration": true,
   "repositories": [
     "ronaldbosma/azure-integration-services-quickstart",
+    "ronaldbosma/call-apim-backend-with-oauth",
+    "ronaldbosma/call-apim-with-managed-identity",
+    "ronaldbosma/protect-apim-with-oauth",
     "ronaldbosma/renovate-bot",
     "ronaldbosma/track-availability-in-app-insights"
   ]
