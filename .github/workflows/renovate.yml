@@ -24,4 +24,4 @@ jobs:
         env:
           LOG_LEVEL: info
           RENOVATE_PLATFORM: github
-          RENOVATE_REPOSITORIES: '["ronaldbosma/track-availability-in-app-insights"]'
+          RENOVATE_REPOSITORIES: '["ronaldbosma/azure-integration-services-quickstart", "ronaldbosma/renovate-bot", "ronaldbosma/track-availability-in-app-insights"]'
