@@ -4,12 +4,5 @@
   "platform": "github",
   "dependencyDashboard": false,
   "labels": ["dependencies", "renovate"],
-  "timezone": "Europe/Amsterdam",
-  "enabledManagers": [
-    "bicep",
-    "github-actions",
-    "dockerfile",
-    "npm",
-    "nuget"
-  ]
+  "timezone": "Europe/Amsterdam"
 }
