@@ -1,0 +1,27 @@
+name: Renovate (monthly)
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 2 1 * *' # 02:00 UTC on the 1st of every month
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  renovate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Run Renovate
+        uses: renovatebot/github-action@v40
+        with:
+          configurationFile: renovate.json
+          token: ${{ secrets.RENOVATE_TOKEN }}
+        env:
+          LOG_LEVEL: info
+          RENOVATE_PLATFORM: github
+          RENOVATE_REPOSITORIES: '["ronaldbosma/track-availability-in-app-insights"]'
