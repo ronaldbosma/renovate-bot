@@ -3,7 +3,6 @@
   "extends": ["replacements:all", "workarounds:all", "group:all"],
   "platform": "github",
   "dependencyDashboard": true,
-  "onboarding": false,
   "labels": ["dependencies", "renovate"],
   "timezone": "Europe/Amsterdam",
   "enabledManagers": [
