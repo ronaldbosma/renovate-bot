@@ -10,8 +10,8 @@ This repository runs a self-hosted Renovate bot on a schedule to scan other GitH
 
 ## Setup
 
-1. Create a GitHub Personal Access Token (classic) on the account that should author PRs:
-   - Scopes: `repo` (all). Optionally add `workflow` if you want PRs that modify workflows to also trigger runs.
+1. Create a Personal Access Token on the account that should author PRs. 
+   See https://docs.renovatebot.com/modules/platform/github/
 2. Add the token as a repository secret in this repo:
    - Settings → Secrets and variables → Actions → New repository secret
    - Name: `RENOVATE_TOKEN`  Value: your PAT
