@@ -1,0 +1,14 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "username": "renovate-release",
+  "gitAuthor": "Renovate Bot <bot@renovateapp.com>",
+  "platform": "github",
+  "dependencyDashboard": true,
+  "labels": ["dependencies", "renovate"],
+  "timezone": "Europe/Amsterdam",
+  "repositories": [
+    "ronaldbosma/azure-integration-services-quickstart",
+    "ronaldbosma/renovate-bot",
+    "ronaldbosma/track-availability-in-app-insights"
+  ]
+}

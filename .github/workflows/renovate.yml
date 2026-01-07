@@ -19,9 +19,7 @@ jobs:
       - name: Run Renovate
         uses: renovatebot/github-action@v44.2.3
         with:
-          configurationFile: renovate.json
+          configurationFile: .github/renovate-config.json
           token: ${{ secrets.RENOVATE_TOKEN }}
         env:
           LOG_LEVEL: info
-          RENOVATE_PLATFORM: github
-          RENOVATE_REPOSITORIES: '["ronaldbosma/azure-integration-services-quickstart", "ronaldbosma/renovate-bot", "ronaldbosma/track-availability-in-app-insights"]'
