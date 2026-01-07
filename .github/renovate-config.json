@@ -3,7 +3,6 @@
   "username": "renovate-release",
   "gitAuthor": "Renovate Bot <bot@renovateapp.com>",
   "platform": "github",
-  "dependencyDashboard": true,
   "labels": ["dependencies", "renovate"],
   "timezone": "Europe/Amsterdam",
   "configMigration": true,
