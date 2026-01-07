@@ -6,6 +6,7 @@
   "dependencyDashboard": true,
   "labels": ["dependencies", "renovate"],
   "timezone": "Europe/Amsterdam",
+  "configMigration": true,
   "repositories": [
     "ronaldbosma/azure-integration-services-quickstart",
     "ronaldbosma/renovate-bot",
