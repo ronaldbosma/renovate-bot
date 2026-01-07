@@ -5,7 +5,6 @@
   "dependencyDashboard": true,
   "labels": ["dependencies", "renovate"],
   "timezone": "Europe/Amsterdam",
-  "schedule": ["02:00 UTC on the first day of the month"],
   "enabledManagers": [
     "bicep",
     "github-actions",
