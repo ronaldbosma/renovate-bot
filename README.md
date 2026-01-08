@@ -1,4 +1,4 @@
-# Renovate Orchestrator
+# Renovate Bot
 
 This repository runs a self-hosted Renovate bot on a schedule to scan other GitHub repositories and open pull requests for dependency updates, including Bicep modules (which is currently not supported by Dependabot).
 
