@@ -3,7 +3,10 @@
   "username": "renovate-release",
   "gitAuthor": "Renovate Bot <bot@renovateapp.com>",
   "platform": "github",
-  "labels": ["dependencies", "renovate"],
+  "labels": [
+    "dependencies",
+    "renovate"
+  ],
   "timezone": "Europe/Amsterdam",
   "configMigration": true,
   "repositories": [
@@ -11,6 +14,7 @@
     "ronaldbosma/call-apim-backend-with-oauth",
     "ronaldbosma/call-apim-with-managed-identity",
     "ronaldbosma/mask-query-parameters-in-apim-and-agw",
+    "ronaldbosma/mtls-with-apim",
     "ronaldbosma/protect-apim-with-oauth",
     "ronaldbosma/renovate-bot",
     "ronaldbosma/track-availability-in-app-insights"
