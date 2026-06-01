@@ -14,7 +14,7 @@
     "ronaldbosma/call-apim-backend-with-oauth",
     "ronaldbosma/call-apim-with-managed-identity",
     "ronaldbosma/mask-query-parameters-in-apim-and-agw",
-    "ronaldbosma/mtls-with-apim",
+    "ronaldbosma/mtls-with-apim-and-agw",
     "ronaldbosma/protect-apim-with-oauth",
     "ronaldbosma/renovate-bot",
     "ronaldbosma/track-availability-in-app-insights"
