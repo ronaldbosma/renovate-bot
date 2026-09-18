@@ -11,6 +11,7 @@
   "configMigration": true,
   "repositories": [
     "ronaldbosma/azure-integration-services-quickstart",
+    "ronaldbosma/azure-logicappsstandard-azd-extension-sample",
     "ronaldbosma/call-apim-backend-with-oauth",
     "ronaldbosma/call-apim-with-managed-identity",
     "ronaldbosma/mask-query-parameters-in-apim-and-agw",
